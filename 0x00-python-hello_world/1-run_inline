@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 python3 -c "$PYCODE"
-=======
-python3 -c "$PYCODE"
->>>>>>> c294ba6f3eb9610c0fdac61ff33771b353ba12bc
