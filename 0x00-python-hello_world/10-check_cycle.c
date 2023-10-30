@@ -8,21 +8,21 @@
 
 int check_cycle(listint_t *list)
 {
-listint_t *new, *check;
+listint_t *newt, *check;
 
 if (!list)
 {
 return (0);
 }
-new = list;
+newt = list;
 check = list->next;
-while (check && new && check->next)
+while (check && newt && check->next)
 {
-if (new == check)
+if (newt == check)
 {
 return (1);
 }
-new = new->next;
+newt = newt->next;
 check = check->next->next;
 }
 return (0);
