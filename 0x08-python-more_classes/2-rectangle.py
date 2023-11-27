@@ -3,6 +3,7 @@
 Defines class Rectangle
 """
 class Rectangle:
+    """Representation of a rectangle"""
     def __int__(self, width=0, height=0):
         """Initializes the rectangle"""
         self.width = width
@@ -25,7 +26,6 @@ class Rectangle:
     @property
     def height(self):
         """getter for the private instance attribute height"""
-
         return self.__height
     
     @height.setter
