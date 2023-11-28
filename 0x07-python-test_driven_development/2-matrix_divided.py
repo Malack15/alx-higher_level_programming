@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""defines function to scalar divde matrix"""
+"""
+defines function to scalar divde matrix
+"""
 
 
 def matrix_divided(matrix, div):
